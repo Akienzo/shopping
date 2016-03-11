@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+body{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+body, ul, li{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+.drawer-menu-brand{
+	color: #f69;
+	text-decoration: none;
+	padding-left: 10px;
+}
+
+.drawer-menu li{
+	width: 300px;
+}
+
+.header_left h1{
+	font-family: 'Satisfy', cursive;
+	font-size: 35px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.header_left h1 a{
+	color: #000;
+	text-decoration: none;
+}
+
+/*メニュー*/
+.nav_box{
+	clear: both;
+	background-color: #fcc;
+}
+
+.nav_box{
+	margin-left: -15px;
+	}
+
+.nav_box a{
+	display: block;
+	font-family: 'Satisfy', cursive;
+	color: #333;
+	padding: 10px 5px;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	}
+
+.en{
+	font-size: 23px;
+}	
+
+.ja{
+	font-size: 12px;
+}
+
+.nav_box:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.nav_box li{
+	float: left;
+	width: 33.3333%;
+}
+
+.nav_box li a:hover{ 
+	background-color: #6FF;
+}
+
+/*flexslider*/
+.flexslider{
+	border: none;
+}
+
+.flex-control-nav{
+	display: none;
+}
+
+
+/*footer*/
+footer{
+	background-color: #CCC;
+	}
+	
+footer p{
+	font-size: 10px;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	color: #666;
+}	
+
+footer i{
+	color: #666;
+}
+
+/* @media */
+@media screen and (max-width: 812px){
+
+.icon_header{
+	display: none;
+}
+}
+
+@media screen and (max-width: 650px){
+
+.ja{
+	display: none;
+}	
+}
+
+@media screen and (min-width: 808px){
+
+.header_left h1:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.header_left h1{
+	float: left;
+	width: 60%;
+}
+
+.icon_header{
+	width: 40%;
+	float: left;
+}
+
+.icon_header li{
+	float: left;
+	margin-right: 12px;
+	margin-top: 80px;
+}
+
+.icon_header a{
+	text-decoration: none;
+}
+
+.cart a{
+	color: #f9c;
+}
+
+.cart a:hover{
+	color: #f39;
+}
+
+.login a{
+	color: #999;
+}
+
+.login a:hover{
+	color: #96c;
+}
+
+.facebook a{
+	color: #09f;
+}
+
+.facebook a:hover{
+	color: #05f;
+}
+
+.twitter a{
+	color: #09f;
+}
+
+.twitter a:hover{
+	color: #05f;
+}
+
+.instagram a{
+	color: #999;
+}
+
+.instagram a:hover{
+	color: #c96;
+}
+
+@media screen and (min-width: 480px){
+
+.nav_box li{
+	float: left;
+	width: 16.6666%;
+}
+}
+
+@media screen and (min-width: 980px){
+
+.container, .header_left, .nav_box ul{
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

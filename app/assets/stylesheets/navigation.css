@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.drawer-menu li{
+/*	background-color: pink; */
+	width: 100%;
+	padding:  10px auto 10px;
+}
+.drawer-menu a{
+	font-size: 16px;
+/*	border-bottom: solid 1px gray;*/
+}
+
+
+/*@media screen and (min-width: px){
+*/

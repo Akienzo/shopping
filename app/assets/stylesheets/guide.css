@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+article{
+	margin: 0 auto;
+	width: 100%;
+	}
+
+article h1{
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+
+.welcome{
+	background-image: url(../img/guide/guide.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	margin: 50px auto;
+	padding:20px 0;
+	width: 100%;
+	text-shadow:2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.welcome p{
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+
+h2, article li{
+	font-size: 14px;
+}
+
+h2{
+	border: solid 1px gray;
+	width: 180px;
+	margin: 50px auto 60px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+h3{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+article li:nth-child(2n), article li:nth-child(3){
+	margin-top: 30px;
+}
+
+table{
+	margin: 30px auto;
+}
+
+table, th, td{
+	border: solid 1px gray;
+	font-size: 12px;
+	padding: 2px 15px;
+	border-collapse: collapse;
+}
+
+thead{
+	background-color: Aliceblue;
+	text-align: center;
+}
+
+article i{
+	color: #f69;
+	margin-bottom: 10px;
+}
+
+.order, .payment, .delivery, .return, .point{
+	width: 90%;
+	padding: 0 5%;
+	border: solid 1px gray;
+}
+
+footer{
+	clear: both;
+}
+
+@media screen and (min-width: 765px){
+
+.order:after{
+	content: "";
+	display: block;
+	clear: both;	
+}
+
+.order, .payment, .delivery, .return, .point{
+	float: left;
+}
+
+.order, .return, .point{
+	width: 32.85%;
+	box-sizing: border-box;
+}
+
+.order{
+	height: 590px;
+}
+
+.payment, .delivery{
+	width: 56.6666%;
+	padding-bottom:  50px;
+}
+
+table{
+	width: 70%;
+}
+
+.return, .point{
+	padding-bottom: 50px;
+}
+
+.point{
+	padding-bottom: 74px;
+}
+}
+
+@media screen and (min-width: 980px){
+	article{
+		width: 980px;
+	}
+}

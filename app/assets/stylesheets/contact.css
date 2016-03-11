@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+.box:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h2{
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.otoiawase{
+	border: 1px solid gray;
+	width: 90%;
+	margin: 50px auto;
+}
+
+.box{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+input[type=text], [type=email]{
+	width: 253px;
+	margin: 0px auto;
+	height: 25px;
+	font-size: 16px;
+}
+
+textarea{
+	width: 253px;
+	height: 120px;
+	margin: 0 auto 22px;
+	padding-bottom: 80px;
+	font-size: 16px;
+}
+
+.name{
+	margin: 3% 10% 0;
+}
+
+.email{
+	margin: 3% 10% 0;
+}
+
+.A{
+	margin: 4% 10% 0;
+}
+
+.B{
+	padding-bottom: 8px;
+}
+
+.submit{
+	text-align: center;
+	padding-bottom: 22px;
+	border-bottom: solid 1px gray;
+}
+.freephone{
+	text-align: center;
+	line-height: 300%;
+	padding-bottom: 10px;
+}
+.freephone a{
+	font-size: 130%;
+	text-decoration: none;
+}
+
+.info p{
+	font-size: 12px;
+	padding: 5% 9%;
+	margin: 0;
+	border-top: solid 1px gray;
+}
+
+
+@media screen and (min-width: 321px){
+
+textarea{
+	width: 96%;
+}
+
+
+@media screen and (min-width: 765px){
+
+.name, .email{
+	float: left;
+	width: 30%;
+}
+
+}
+
+@media screen and (min-width: 980px){
+
+.otoiawase{
+	width: 980px;
+}
+}
+
+
+

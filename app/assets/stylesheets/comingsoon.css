@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+.blog_wrapper{
+	width: 100%;
+	margin-top: 5%;
+}
+	
+.blog_wrapper img{
+	width: 100%;
+}
+
+.blog_wrapper p{
+	text-align: center;
+}
+
+@media screen and (min-width: 800px){
+
+.blog_wrapper{
+	width: 800px;
+	margin: 5% auto;
+}
+}

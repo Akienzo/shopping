@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+
+table{
+	margin: 30px auto;
+	width: 90%
+}
+
+table, th, td{
+	border: solid 1px gray;
+	font-size: 12px;
+	padding: 20px 10px;
+	border-collapse: collapse;
+}
+
+thead{
+	background-color: Aliceblue;
+	text-align: center;
+}
+
+tbody td:nth-child(2n+1){
+	text-align: center;
+}
+
+tbody td:nth-child(2n){
+	padding-left: 10%;
+}
+
+
+@media screen and (min-width: 470px){
+
+tbody br{
+	display: none;
+}
+
+
+@media screen and (min-width: 700px){
+	table{
+		width: 700px;
+	}
+}
